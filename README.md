@@ -4,7 +4,7 @@ LOW RANK TRANSFORMER FOR MULTIVARIATE TIME SERIES ANOMALY DETECTION AND LOCALIZA
 ## 🔥 Method Overview
 
 <p align="center">
-  <img src="images/NewArchitecture_ICLR_3.png.png" width="700"/>
+  <img src="images/NewArchitecture_ICLR_3.png" width="700"/>
   <br>
   <em>Figure 1: ALoRa framework.</em>
 </p>
