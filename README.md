@@ -36,7 +36,7 @@ nvidia-smi
 
 We recommend using a Python virtual environment for a clean installation.
 
-### 📦 Step 1: Create and Activate a Virtual Environment
+### Step 1: Create and Activate a Virtual Environment
 
 ```bash
 # Navigate to your project directory (if not already there)
@@ -51,20 +51,20 @@ source ./alora_env/bin/activate      # For Linux/macOS
 alora_env\Scripts\activate           # For Windows
 ```
 
-### 🔄 Step 2: Upgrade pip
+### Step 2: Upgrade pip
 
 ```bash
 pip install --upgrade pip
 ```
 
-### 🧠 Step 3: Install PyTorch with CUDA 10.2 Support
+### Step 3: Install PyTorch with CUDA 10.2 Support
 
 ```bash
 pip install torch==1.10.2+cu102 torchvision==0.11.3+cu102 torchaudio==0.10.2+cu102 \
   -f https://download.pytorch.org/whl/cu102/torch_stable.html
 ```
 
-### 📚 Step 4: Install Other Required Packages
+### Step 4: Install Other Required Packages
 
 ```bash
 pip install -r ./requirements.txt
@@ -76,7 +76,7 @@ Each dataset should be stored in the following directory:
 ./ALoRa/Datasets/<DATASET_NAME>/
 ```
 
-### 📁 Required Files
+### Required Files
 
 For each dataset, the folder must include:
 
@@ -105,7 +105,7 @@ train = pd.read_csv(os.path.join(data_path, 'train.csv'))
 train = np.load(os.path.join(data_path, 'train.npy'))
 ```
 
-### 📦 Public Datasets
+### Public Datasets
 
 We include the **SMD** and **HAI** dataset in this repository to allow easy reproducibility of the results.  
 Other datasets require download permissions or request-based access.
