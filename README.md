@@ -149,3 +149,11 @@ This project requires Python 3.7 or higher. Please see the `requirements.txt` fi
 
 ## Citation Request
 If you find our paper or any part of our code useful, please cite our work as follows:
+@inproceedings{
+shimillas2026low,
+title={Low Rank Transformer for Multivariate Time Series Anomaly Detection and Localization},
+author={Charalampos Shimillas and Kleanthis Malialis and Konstantinos Fokianos and Marios Polycarpou},
+booktitle={The Fourteenth International Conference on Learning Representations},
+year={2026},
+url={https://openreview.net/forum?id=ZtPIBpVojC}
+}
