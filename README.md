@@ -1,6 +1,6 @@
 # ALoRa
-LOW RANK TRANSFORMER FOR MULTIVARIATE TIME SERIES ANOMALY DETECTION AND LOCALIZATION, ICLR 2026
 
+Official code for **[Low Rank Transformer for Multivariate Time Series Anomaly Detection and Localization](https://openreview.net/pdf?id=ZtPIBpVojC)**, ICLR 2026.
 ## Method Overview
 
 <p align="center">
